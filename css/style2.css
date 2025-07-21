@@ -1,0 +1,112 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+    margin: 0;
+    font-family: Arial, san-serif;
+    background-color: #a8b8d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+	font-weight: bold;
+}
+
+.container2 {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 950px;
+}
+.container2 h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(50% - 30px);
+}
+.button-group {
+    display: flex;
+    flex-direction: row; /* Align buttons side by side */
+    gap: 5px; /* Add space between buttons if needed */
+    justify-content: flex-start; /* Align buttons to the start of the container */
+	align-items:center;
+}
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="email"], input[type="file"] {
+    padding: 5px;
+    font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+	border-radius: 10px;
+	
+}
+
+#jenis {
+    height: 26px;
+	border-radius: 10px;
+}
+button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff; /* Change to your desired button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button span {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 5px; /* Space between text and icon */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darken button on hover */
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background-color: #00408a; /* Darken button further on active */
+}
+
+button[type="reset"] {
+    background-color: #6c757d; /* Change to your desired reset button color */
+}
+
+button[type="reset"]:hover {
+    background-color: #5a6268; /* Darken reset button on hover */
+}
+
+button[type="reset"]:active {
+    background-color: #444e54; /* Darken reset button further on active */
+}

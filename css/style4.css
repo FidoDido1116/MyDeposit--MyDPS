@@ -1,0 +1,173 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a8b8d0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+    width: 95%; /* Increased width to fit more content */
+    max-width: 1500px; /* Increased max-width */
+    margin: 55px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Navigation styling */
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li, .history-btn {
+    background-color: #328da8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav ul li a, .history-btn a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+nav ul li:hover, nav ul li a:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+/* Content styling */
+.content {
+    margin-top: 20px;
+}
+
+/* Container2 styling */
+.container2 {
+    margin-top: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px; /* Reduced font size to fit more content */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px; /* Reduced padding to fit more content */
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Specific button styles */
+button[name='delete'], button[name='edit'] {
+    width: 110px; /* Adjusted width */
+    padding: 6px 10px; /* Adjusted padding */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px; /* Adjusted font size */
+    font-weight: bold;
+}
+
+button[name='delete'] {
+    background-color: #d9534f;
+    color: white;
+}
+
+button[name='delete']:hover {
+    background-color: #c9302c;
+}
+
+button[name='edit'] {
+    background-color: #5bc0de;
+    color: white;
+}
+
+button[name='edit']:hover {
+    background-color: #31b0d5;
+}
+
+/* Link styling for file download icon */
+a ion-icon {
+    font-size: 1.5em;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a ion-icon:hover {
+    color: #0056b3;
+}
+
+/* Message styling */
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #4CAF50;
+    background-color: #dff0d8;
+    color: #3c763d;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Back button styling */
+#kembali-btn {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #328da8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Icon styling */
+ion-icon {
+    font-size: 20px;
+}
