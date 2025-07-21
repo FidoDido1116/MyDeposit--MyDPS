@@ -16,7 +16,6 @@ This is a PHP-based web application developed for the Royal Malaysian Customs De
 - **Frontend:** HTML, CSS
 - **Backend:** PHP (Core PHP, no framework)
 - **Database:** MySQL (`mydps (1).sql`)
-- **Libraries:** [PHPMailer](https://github.com/PHPMailer/PHPMailer)
 
 ## 🗂️ File Structure (Key Files)
 
